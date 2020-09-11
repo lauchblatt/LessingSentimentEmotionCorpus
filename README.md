@@ -1,6 +1,6 @@
 # Lessing Sentiment And Emotion Corpus
 
-This repository contains the corpus that was developed as part of an annotation study further described in the paper <a href=https://epub.uni-regensburg.de/37486/1/annDH18_after_Review_%2BExpertAnnotations_mb_v3.pdf>"Sentiment Annotation of Historic German Plays: An Empirical Study on Annotation Behavior"</a> by 
+This repository contains the corpus that was developed as part of an annotation study further described in the paper <a href="https://epub.uni-regensburg.de/37486/1/annDH18_after_Review_%2BExpertAnnotations_mb_v3.pdf">Sentiment Annotation of Historic German Plays: An Empirical Study on Annotation Behavior"</a> by 
 <ul>
   <li><a href="https://www.uni-regensburg.de/sprache-literatur-kultur/medieninformatik/sekretariat-team/thomas-schmidt/index.html">Thomas Schmidt</a></li>
   <li><a href="https://ch.uni-leipzig.de/burghardt/">Manuel Burghardt</a></li>

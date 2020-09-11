@@ -1,6 +1,12 @@
 # Lessing Sentiment And Emotion Corpus
 
-This repository contains the corpus that was developed as part of an annotation study further described in the paper <a href=https://epub.uni-regensburg.de/37486/1/annDH18_after_Review_%2BExpertAnnotations_mb_v3.pdf>"Sentiment Annotation of Historic German Plays: An Empirical Study on Annotation Behavior"</a> by <a href="https://www.uni-regensburg.de/sprache-literatur-kultur/medieninformatik/sekretariat-team/thomas-schmidt/index.html">Thomas Schmidt</a>, <a href="https://ch.uni-leipzig.de/burghardt/">Manuel Burghardt</a> and <a href="https://www.germanistik.uni-wuerzburg.de/ndl1/mitarbeiter/dennerlein/">Katrin Dennerlein</a>. The paper and corpus was presented at the <a href="http://ceur-ws.org/Vol-2155/">Workshop on Annotation in Digital Humanities (annDH 2018)</a> in Sofia, Bulgaria. The annoted text is German.
+This repository contains the corpus that was developed as part of an annotation study further described in the paper <a href=https://epub.uni-regensburg.de/37486/1/annDH18_after_Review_%2BExpertAnnotations_mb_v3.pdf>"Sentiment Annotation of Historic German Plays: An Empirical Study on Annotation Behavior"</a> by 
+<ul>
+  <li><a href="https://www.uni-regensburg.de/sprache-literatur-kultur/medieninformatik/sekretariat-team/thomas-schmidt/index.html">Thomas Schmidt</a></li>
+  <li><a href="https://ch.uni-leipzig.de/burghardt/">Manuel Burghardt</a></li>
+  <li><a href="https://www.germanistik.uni-wuerzburg.de/ndl1/mitarbeiter/dennerlein/">Katrin Dennerlein</a></li> 
+</ul>
+The paper and corpus was presented at the <a href="http://ceur-ws.org/Vol-2155/">Workshop on Annotation in Digital Humanities (annDH 2018)</a> in Sofia, Bulgaria. The annoted text is German.
 
 ## Citation Information
 
@@ -12,7 +18,7 @@ Schmidt, T., Burghardt, M. & Dennerlein, K. (2018). Sentiment Annotation of Hist
 
 This corpus was created via a sentiment and emotion annotation study. You can find more information about the annotation procedure, the used scheme and agreement and distribution results in the paper. The speeches are originally from plays that were gathered via the platform <a href="https://textgrid.de/">Textgrid</a>.
 
-The corpus consists of 200 semi-randomly selected speeches of all of Lessing's plays that were annotated independently by 5 annotators. The csv-file consists of 200 lines, one for each speech.
+The corpus consists of 200 semi-randomly selected speeches of all of Lessing's plays that were annotated independently by 5 annotators. The csv-file consists of 200 lines, one for each speech, the annotations of all five annotators and the majority decision among them.
 
 We used the following schemes to annotate the speeches:
 - binary polarity (negative/positive)
@@ -21,7 +27,7 @@ We used the following schemes to annotate the speeches:
 
 ### Columns
 
-The most important columns of the csv-file are the Rated_Speech, which is the text that was rated and the Majorityannotation_Polarity_binary and Majorityannotation_Polarity_differentiated which are the majority annotations for these schemes. The following list summarizes all columns of the table.
+The most important columns of the csv-file are the <br>Rated_Speech</br>, which is the text that was rated and the <br>Majorityannotation_Polarity_binary</br> and <br>Majorityannotation_Polarity_differentiated</br> which are the majority annotations for these schemes. The following list summarizes all columns of the table.
 
 - <b>ID</b>: an id for every speech
 - <b>Title_of_Play</b>: the name of the play the speech is from; every play is represented in regards to the overall size of the play compared to the entire corpus meaning shorter plays are represented with less plays, longer with more
@@ -41,13 +47,14 @@ The most important columns of the csv-file are the Rated_Speech, which is the te
 - <b>Annotation3_Polarity_differentiated</b>: negative/positive; the differentiated polarity annotation by annotator 3
 - <b>Annotation4_Polarity_differentiated</b>: negative/positive; the differentiated polarity annotation by annotator 4
 - <b>Annotation5_Polarity_differentiated</b>: negative/positive; the differentiated polarity annotation by annotator 5
+- <b>Annotation{1-5}_{Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, Trust}</b>: present/not_present; if the specific emotion is present or not present in the rated speech
 
 ## Further Reading
 Besides the above paper you can find out more about this corpus and analysis we performed with it in the following papers:
 
-Schmidt, T. & Burghardt, M. (2018). An Evaluation of Lexicon-based Sentiment Analysis Techniques for the Plays of Gotthold Ephraim Lessing. In: Proceedings of the Second Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature (pp. 139-149). Santa Fe, New Mexico: Association for Computational Linguistics.
+Schmidt, T. & Burghardt, M. (2018). An Evaluation of Lexicon-based Sentiment Analysis Techniques for the Plays of Gotthold Ephraim Lessing. In: <em>Proceedings of the Second Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature</em> (pp. 139-149). Santa Fe, New Mexico: Association for Computational Linguistics. <a href="https://www.aclweb.org/anthology/W18-4516.pdf">[pdf]</a>
 
-Schmidt, T. & Burghardt, M. (2018). Toward a Tool for Sentiment Analysis for German Historic Plays. In: Piotrowski, M. (ed.), COMHUM 2018: Book of Abstracts for the Workshop on Computational Methods in the Humanities 2018 (pp. 46-48). Lausanne, Switzerland: Laboratoire laussannois d'informatique et statistique textuelle.
+Schmidt, T. & Burghardt, M. (2018). Toward a Tool for Sentiment Analysis for German Historic Plays. In: Piotrowski, M. (ed.), <em>COMHUM 2018: Book of Abstracts for the Workshop on Computational Methods in the Humanities 2018</em> (pp. 46-48). Lausanne, Switzerland: Laboratoire laussannois d'informatique et statistique textuelle. <a href="http://ceur-ws.org/Vol-2155/schmidt.pdf">[pdf]</a>
 
-Schmidt, T., Burghardt, M. & Dennerlein, K. (2018). „Kann man denn auch nicht lachend sehr ernsthaft sein?“ – Zum Einsatz von Sentiment Analyse-Verfahren für die quantitative Untersuchung von Lessings Dramen. In Book of Abstracts, DHd 2018.
+Schmidt, T., Burghardt, M. & Dennerlein, K. (2018). „Kann man denn auch nicht lachend sehr ernsthaft sein?“ – Zum Einsatz von Sentiment Analyse-Verfahren für die quantitative Untersuchung von Lessings Dramen. In <em>Book of Abstracts, DHd 2018</em>. <a href="https://epub.uni-regensburg.de/37579/1/Self-Archiving-Version_DHd-2018.pdf">[pdf]</a>
 

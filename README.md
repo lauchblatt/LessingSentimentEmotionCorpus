@@ -54,7 +54,7 @@ Besides the above paper you can find out more about this corpus and analysis we 
 
 Schmidt, T. & Burghardt, M. (2018). An Evaluation of Lexicon-based Sentiment Analysis Techniques for the Plays of Gotthold Ephraim Lessing. In: <em>Proceedings of the Second Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature</em> (pp. 139-149). Santa Fe, New Mexico: Association for Computational Linguistics. <a href="https://www.aclweb.org/anthology/W18-4516.pdf">[pdf]</a>
 
-Schmidt, T. & Burghardt, M. (2018). Toward a Tool for Sentiment Analysis for German Historic Plays. In: Piotrowski, M. (ed.), <em>COMHUM 2018: Book of Abstracts for the Workshop on Computational Methods in the Humanities 2018</em> (pp. 46-48). Lausanne, Switzerland: Laboratoire laussannois d'informatique et statistique textuelle. <a href="http://ceur-ws.org/Vol-2155/schmidt.pdf">[pdf]</a>
+Schmidt, T. & Burghardt, M. (2018). Toward a Tool for Sentiment Analysis for German Historic Plays. In: Piotrowski, M. (ed.), <em>COMHUM 2018: Book of Abstracts for the Workshop on Computational Methods in the Humanities 2018</em> (pp. 46-48). Lausanne, Switzerland: Laboratoire laussannois d'informatique et statistique textuelle. <a href="https://epub.uni-regensburg.de/37575/1/ComHum2018-Epub-Version.pdf">[pdf]</a>
 
 Schmidt, T., Burghardt, M. & Dennerlein, K. (2018). „Kann man denn auch nicht lachend sehr ernsthaft sein?“ – Zum Einsatz von Sentiment Analyse-Verfahren für die quantitative Untersuchung von Lessings Dramen. In <em>Book of Abstracts, DHd 2018</em>. <a href="https://epub.uni-regensburg.de/37579/1/Self-Archiving-Version_DHd-2018.pdf">[pdf]</a>
 

@@ -27,7 +27,7 @@ We used the following schemes to annotate the speeches:
 
 ### Columns
 
-The most important columns of the csv-file are the <br>Rated_Speech</br>, which is the text that was rated and the <br>Majorityannotation_Polarity_binary</br> and <br>Majorityannotation_Polarity_differentiated</br> which are the majority annotations for these schemes. The following list summarizes all columns of the table.
+The most important columns of the csv-file are the <b>Rated_Speech</b>, which is the text that was rated and the <b>Majorityannotation_Polarity_binary</b> and <b>Majorityannotation_Polarity_differentiated</b> which are the majority annotations for these schemes. The following list summarizes all columns of the table.
 
 - <b>ID</b>: an id for every speech
 - <b>Title_of_Play</b>: the name of the play the speech is from; every play is represented in regards to the overall size of the play compared to the entire corpus meaning shorter plays are represented with less plays, longer with more

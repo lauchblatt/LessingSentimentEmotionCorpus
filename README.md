@@ -17,6 +17,7 @@ If you use or reference this corpus in any shape or form please cite the paper:
 Schmidt, T., Burghardt, M. & Dennerlein, K. (2018). Sentiment Annotation of Historic German Plays: An Empirical Study on Annotation Behavior. In: Sandra Kübler, Heike Zinsmeister (eds.), <em>Proceedings of the Workshop on Annotation in Digital Humanities (annDH 2018)</em> (pp. 47-52). Sofia, Bulgaria. <a href="https://epub.uni-regensburg.de/37486/1/annDH18_after_Review_%2BExpertAnnotations_mb_v3.pdf">[pdf]</a> <a href="https://epub.uni-regensburg.de/cgi/export/eprint/37486/BibTeX/epub-eprint-37486.bib">[bibtex]</a> 
 
 If you use or reference the evaluation results in any shape or form please cite the paper:
+
 Schmidt, T. & Burghardt, M. (2018). An Evaluation of Lexicon-based Sentiment Analysis Techniques for the Plays of Gotthold Ephraim Lessing. In: <em>Proceedings of the Second Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature</em> (pp. 139-149). Santa Fe, New Mexico: Association for Computational Linguistics. <a href="https://www.aclweb.org/anthology/W18-4516.pdf">[pdf]</a><a href="https://epub.uni-regensburg.de/cgi/export/eprint/43702/BibTeX/epub-eprint-43702.bib">[bibtex]</a> 
 
 ## Corpus Description

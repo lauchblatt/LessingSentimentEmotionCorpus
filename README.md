@@ -8,11 +8,16 @@ This repository contains the corpus that was developed as part of an annotation 
 </ul>
 The paper and corpus was presented at the <a href="http://ceur-ws.org/Vol-2155/">Workshop on Annotation in Digital Humanities (annDH 2018)</a> in Sofia, Bulgaria. The annoted text is German.
 
+In the folder EvaluationResults you find evaluation results for lexicon based sentiment analysis based on this <a href="https://www.aclweb.org/anthology/W18-4516.pdf">paper</a>.
+
 ## Citation Information
 
 If you use or reference this corpus in any shape or form please cite the paper:
 
 Schmidt, T., Burghardt, M. & Dennerlein, K. (2018). Sentiment Annotation of Historic German Plays: An Empirical Study on Annotation Behavior. In: Sandra Kübler, Heike Zinsmeister (eds.), <em>Proceedings of the Workshop on Annotation in Digital Humanities (annDH 2018)</em> (pp. 47-52). Sofia, Bulgaria. <a href="https://epub.uni-regensburg.de/37486/1/annDH18_after_Review_%2BExpertAnnotations_mb_v3.pdf">[pdf]</a> <a href="https://epub.uni-regensburg.de/cgi/export/eprint/37486/BibTeX/epub-eprint-37486.bib">[bibtex]</a> 
+
+If you use or reference the evaluation results in any shape or form please cite the paper:
+Schmidt, T. & Burghardt, M. (2018). An Evaluation of Lexicon-based Sentiment Analysis Techniques for the Plays of Gotthold Ephraim Lessing. In: <em>Proceedings of the Second Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature</em> (pp. 139-149). Santa Fe, New Mexico: Association for Computational Linguistics. <a href="https://www.aclweb.org/anthology/W18-4516.pdf">[pdf]</a><a href="https://epub.uni-regensburg.de/cgi/export/eprint/43702/BibTeX/epub-eprint-43702.bib">[bibtex]</a> 
 
 ## Corpus Description
 
@@ -48,6 +53,12 @@ The most important columns of the csv-file are the <b>Rated_Speech</b>, which is
 - <b>Annotation4_Polarity_differentiated</b>: negative/positive; the differentiated polarity annotation by annotator 4
 - <b>Annotation5_Polarity_differentiated</b>: negative/positive; the differentiated polarity annotation by annotator 5
 - <b>Annotation{1-5}_{Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, Trust}</b>: present/not_present; if the specific emotion is present or not present in the rated speech
+
+## Corpus Description
+
+In the folder EvaluationResults you find evaluation results for lexicon based sentiment analysis for this corpus based on this <a href="https://www.aclweb.org/anthology/W18-4516.pdf">paper</a>.
+
+The results are ordered according to the used lexicon and approach. There is also a file summarizing the top 5 results per lexicon.
 
 ## Further Reading
 Besides the above paper you can find out more about this corpus and analysis we performed with it in the following papers:

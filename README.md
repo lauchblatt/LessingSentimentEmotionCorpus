@@ -55,7 +55,7 @@ The most important columns of the csv-file are the <b>Rated_Speech</b>, which is
 - <b>Annotation5_Polarity_differentiated</b>: negative/positive; the differentiated polarity annotation by annotator 5
 - <b>Annotation{1-5}_{Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, Trust}</b>: present/not_present; if the specific emotion is present or not present in the rated speech
 
-## Corpus Description
+## Evaluation-Results
 
 In the folder EvaluationResults you find evaluation results for lexicon based sentiment analysis for this corpus based on this <a href="https://www.aclweb.org/anthology/W18-4516.pdf">paper</a>.
 

@@ -1,20 +1,28 @@
 # Lessing Sentiment And Emotion Corpus
 
-This repository contains the corpus that was developed as part of an annotation study further described in the paper <a href="https://epub.uni-regensburg.de/37486/1/annDH18_after_Review_%2BExpertAnnotations_mb_v3.pdf">Sentiment Annotation of Historic German Plays: An Empirical Study on Annotation Behavior"</a> by 
+This repository contains corpora that were developed as part of two annotation studies further described in the following papers: 
+<ul>
+<li><a href="https://epub.uni-regensburg.de/37486/1/annDH18_after_Review_%2BExpertAnnotations_mb_v3.pdf">Sentiment Annotation of Historic German Plays: An Empirical Study on Annotation Behavior"</a> for the corpus <em>Lessing Sentiment and Emotion Corpus (2018).</em></li>
+<li><a href="https://epub.uni-regensburg.de/43569/1/paper9.pdf">Sentiment Annotation for Lessing’s Plays: Towards a Language Resource for Sentiment Analysis on German Literary Texts"</a> for the corpus <em>Lessing_Speech_Sentiment_Corpus (2019).</em></li>
+  </ul>
+Authors:
 <ul>
   <li><a href="https://www.uni-regensburg.de/sprache-literatur-kultur/medieninformatik/sekretariat-team/thomas-schmidt/index.html">Thomas Schmidt</a></li>
   <li><a href="https://ch.uni-leipzig.de/burghardt/">Manuel Burghardt</a></li>
-  <li><a href="https://www.germanistik.uni-wuerzburg.de/ndl1/mitarbeiter/dennerlein/">Katrin Dennerlein</a></li> 
+  <li><a href="https://www.germanistik.uni-wuerzburg.de/ndl1/mitarbeiter/dennerlein/">Katrin Dennerlein</a></li>
+  <li><a href="go.ur.de/christian-wolff">Christian Wolff</a></li>
 </ul>
-The paper and corpus was presented at the <a href="http://ceur-ws.org/Vol-2155/">Workshop on Annotation in Digital Humanities (annDH 2018)</a> in Sofia, Bulgaria. The annoted text is German.
+The paper and corpora were presented at the <a href="http://ceur-ws.org/Vol-2155/">Workshop on Annotation in Digital Humanities (annDH 2018)</a> in Sofia, Bulgaria and at the <a href="http://ceur-ws.org/Vol-2402/">2nd Conference on Language, Data and Knowledge (LDK 2019)</a> in Leipzig, Germany, respectively. The annoted text is German.
 
-In the folder EvaluationResults you find evaluation results for lexicon based sentiment analysis based on this <a href="https://www.aclweb.org/anthology/W18-4516.pdf">paper</a>.
+In the folder EvaluationResults you find evaluation results for lexicon based sentiment analysis based on this <a href="https://www.aclweb.org/anthology/W18-4516.pdf">paper</a>. The folder Annotation Guidelines includes the annotation guideline for the corpus <em>Lessing_Speech_Sentiment_Corpus (2019).</em>
 
 ## Citation Information
 
-If you use or reference this corpus in any shape or form please cite the paper:
+If you use or reference this corpora in any shape or form please cite the corresponding papers:
 
 Schmidt, T., Burghardt, M. & Dennerlein, K. (2018). Sentiment Annotation of Historic German Plays: An Empirical Study on Annotation Behavior. In: Sandra Kübler, Heike Zinsmeister (eds.), <em>Proceedings of the Workshop on Annotation in Digital Humanities (annDH 2018)</em> (pp. 47-52). Sofia, Bulgaria. <a href="https://epub.uni-regensburg.de/37486/1/annDH18_after_Review_%2BExpertAnnotations_mb_v3.pdf">[pdf]</a> <a href="https://epub.uni-regensburg.de/cgi/export/eprint/37486/BibTeX/epub-eprint-37486.bib">[bibtex]</a> 
+
+Schmidt, T., Burghardt, M., Dennerlein, K. & Wolff, C. (2019). Sentiment Annotation in Lessing’s Plays: Towards a Language Resource for Sentiment Analysis on German Literary Texts. In: 2nd Conference on Language, Data and Knowledge (LDK 2019). LDK Posters. Leipzig, Germany. <a href="https://epub.uni-regensburg.de/43569/1/paper9.pdf">[pdf]</a> <a href="https://epub.uni-regensburg.de/cgi/export/eprint/43569/BibTeX/epub-eprint-43569.bib">[bibtex]</a>
 
 If you use or reference the evaluation results in any shape or form please cite the paper:
 
@@ -32,6 +40,8 @@ We used the following schemes to annotate the speeches:
 - present/not_present for 8 basic emotions (Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, Trust)
 
 ### Columns
+
+Description for Lessing Sentiment and Emotion Corpus (2018):
 
 The most important columns of the csv-file are the <b>Rated_Speech</b>, which is the text that was rated and the <b>Majorityannotation_Polarity_binary</b> and <b>Majorityannotation_Polarity_differentiated</b> which are the majority annotations for these schemes. The following list summarizes all columns of the table.
 

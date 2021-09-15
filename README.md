@@ -16,6 +16,8 @@ The paper and corpora were presented at the <a href="http://ceur-ws.org/Vol-2155
 
 In the folder EvaluationResults you find evaluation results for lexicon based sentiment analysis based on this <a href="https://www.aclweb.org/anthology/W18-4516.pdf">paper</a>. The folder Annotation Guidelines includes the annotation guideline for the corpus <em>Lessing_Speech_Sentiment_Corpus (2019).</em>
 
+If you are interested in this and similar research, you can find more information on my <a href="https://twitter.com/thomasS_UniR">Twitter</a>, <a href="https://scholar.google.de/citations?user=FecReDsAAAAJ&hl=de">Google Scholar</a> and <a href="https://www.researchgate.net/profile/Thomas-Schmidt-23">ResearchGate</a>.
+
 ## Citation Information
 
 If you use or reference this corpora in any shape or form please cite the corresponding papers:
